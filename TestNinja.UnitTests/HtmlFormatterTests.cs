@@ -23,5 +23,6 @@ namespace TestNinja.UnitTests
             Assert.That(result, Does.EndWith("</strong>"));
             Assert.That(result, Does.Contain("abc"));
         }
+
     }
 }
